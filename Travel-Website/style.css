@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.starter-background{
+    background-image: url(background-image.png);
+    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.7); 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: 20;
+    background-position: 50%;
+    background-size: cover;
+}
+.above-background{
+    display: flex;
+
+}
+.call-icon img{
+    margin-top: 25px;
+    width: 40px;
+    margin-left: 40px;
+}
+.air-plane img{
+    margin-left: 280px;
+    padding-right: 10px;
+    margin-top: 15px;
+    width: 65px;
+}
+.search-icon img{
+    width: 50px;
+}
+.detail{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.detail ul li{
+    list-style: none;
+    color: #fff;
+    line-height: 25px;
+}
+
+.air-text{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.search-icon{
+    margin-top: 15px;
+    margin-left: 400px;
+}
+.capture{
+    margin-left: 100px;
+}
+.capture h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    line-height: 85px;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+.capture p{
+    color: #fff;
+    width: 575px;
+    margin-left: 320px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.link{
+    margin-left: 520px;
+    margin-top: 50px;
+}
+.link a{
+    padding: 17px 30px;
+    background: rgb(83, 83, 249);
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+.link a:hover{
+    color: rgb(64, 64, 229);
+    background: #fff;
+}
+.link a1{
+    padding: 17px 30px;
+    border: 1px solid rgb(64, 64, 229);
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+.link a1:hover{
+    border: 1px solid #fff;
+    color: rgb(64, 64, 229);
+}
+.second-list{
+    display: flex;
+    margin-top: 15px;
+}
+.list-1{
+    margin-left: 20px;
+}
+.list-1 ul li{
+    padding-left: 12px;
+    display: inline-block;
+    cursor: poiner;
+    transition: 0.5s;
+}
+.list-1 ul li:hover{
+    transform: translateY(-5px);
+}
+.list-2{
+   margin-left: 270px;
+}
+.list-2 ul li a:hover{
+    color: rgb(64, 64, 229);
+}
+.list-2 ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.list-2 ul li a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
+}
+.list-1 img{
+    width: 23px;
+}
+.list-3{
+    margin-left: 180px;
+}
+.list-3 a{
+    padding: 13px 25px;
+    background: rgb(64, 64, 229);
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.list-3 a:hover{
+    color: rgb(64, 64, 229);
+    background: #fff;
+}
+.second-background{
+    background: rgb(123, 123, 240);
+    display: flex;
+    padding-top: 80px;
+    padding-left: 20px;
+    height: 40vh;
+    margin-bottom: 100px;
+}
+.second-background p{
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+.second-background input{
+    padding: 20px 25px;
+    border-radius: 35px;
+    border: none;
+    color: rgb(83, 83, 243);
+}
+.background-4{
+    margin-left: 20px;
+}
+.background-3{
+    margin-left: 20px;
+}
+.background-2{
+    margin-left: 20px;
+}
+.background-5{
+    padding-left: 100px;
+    padding-top: 45px;
+}
+.background-5 a{
+    padding: 13px 25px;
+    background: rgb(64, 64, 229);
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.background-5 a:hover{
+    color: rgb(83, 83, 243);
+    background: #fff; 
+}
+.popular-text p span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+.popular-text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.popular-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 850px;
+    color: rgb(128, 103, 103);
+}
+.dest-upload-1{
+    background: url(upload-3.png);
+    background-size: 700px;
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    background-position: center;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    padding-top: 240px;
+    transition: 0.5s;
+}
+.dest-upload-1:hover{
+    transform: translateY(20px);
+}
+.dest-upload-2{
+    background: url(upload-2.png);
+    background-repeat: no-repeat;
+    padding-top: 240px;
+    padding-left: 50px;
+    margin-left: 30px;
+    height: 500px;
+    background-size: 700px;
+    width: 400px;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+.dest-upload-2:hover{
+    transform: translateY(20px);                                                        
+}
+.dest-upload-3{
+    background: url(upload-1.png);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-left: 40px;
+    padding-top: 240px;
+    background-size: 700px;
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    transition: 0.5s;
+}
+.dest-upload-3:hover{
+    transform: translateY(20px);
+}
+.popular-destination{
+    display: flex
+}
+.container{
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 150px;
+    z-index: 1; 
+    width: 320px;
+}
+.container p span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding-left: 45px;
+}
+.container h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 7px;
+    padding-left: 25px;
+    font-size: 16px;
+
+}
+.container p{
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: gray;
+    padding-left: 10px;
+}
+.star{
+    margin-left: 200px;
+}
+.star img{
+    width: 120px;
+    border-radius: 10px;
+    display: grid;
+    position: relative;
+    z-index: 100;
+}
+.main-package{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.package-image1{
+    margin-left: 30px;
+}
+
+.package-image1 img{
+    width: 450px;
+    height: 300px;
+
+}
+.package-text1 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 20px;
+}
+.package-text1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: rgb(128, 103, 103);
+    width: 350px;
+}
+.package-pricebox1{
+    background: rgb(136, 136, 247);
+    height:300px;
+    width: 300px;
+    margin-right: 30px;
+    position: relative;
+}
+.package-pricebox1 h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.package-pricebox1 h3 span{
+    font-size: 30px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+}
+.package-pricebox1 p span{
+    color: #fff;
+    font-size: 10px;
+    padding-left: 25px;
+}
+.book-link a{
+    padding: 15px 17px;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 85px;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 1s;
+}
+.book-link a:hover{
+    color: rgb(136, 136, 247);
+    background: #fff;
+    border: 1px solid rgb(136, 136, 247);
+}
+.load-link {
+    margin-top: 50px;
+    margin-left: 600px;
+
+}
+.load-link a{
+    padding: 15px 17px;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid rgb(136, 136, 247);
+    color: rgb(136, 136, 247);
+    transition: 1s;
+}
+.load-link a:hover{
+    color: #fff;
+    background: rgb(136, 136, 247);
+}
+.load-link a img{
+    width: 8px;
+    color: rgb(136, 136, 247);
+
+}
+.photo-gallery{
+    display: flex;
+    margin-top: 30px;
+}
+.upload1 img{
+    margin-left: 5px;
+    width: 300px;
+    height: 230px;
+    border-radius: 15px;
+}
+.upload3 img{
+    width: 300px;
+    height: 230px;
+    border-radius: 15px;
+}
+.upload2 img{
+    width: 620px;
+    margin-right: 8px;
+}
+.Gallery-text {
+    margin-top: 70px;
+}
+.Gallery-text span{
+    margin-left: 600px;
+    color: grey;
+    font-size: 13px;
+}
+.Gallery-text h3{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #000;
+    margin-left: 400px;
+}
+.Gallery-text p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    width: 900px;
+    text-align: center;
+    margin-left: 200px;
+}
+.our-package span{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.our-package h3{
+    margin-left: 400px;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.our-package p{
+    margin-left: 300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nav-closer{
+    padding-top: 80px;
+    background:  rgb(136, 136, 247);
+    height: 300px;
+    display: flex;
+    width: 77rem;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.nav-1 span{
+    font-size: 12px;
+    color: grey;
+    margin-left: 200px;
+
+}
+.nav-1 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #000;
+    margin-left: 150px;
+
+}
+.nav-1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(128, 103, 103);
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.nav-2{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.nav-2 a{
+    padding: 15px 17px;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 85px;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 1s;
+}
+.nav-2 a:hover{
+    color: rgb(136, 136, 247);
+    background: #fff;
+    border: 1px solid rgb(136, 136, 247);
+}
+.down-end{
+    display: flex;
+    display: grid;
+    padding-top: 80px;
+    background:  rgb(81, 79, 79);
+    height: 300px;
+    display: flex;
+    width: 77rem;
+    margin-left: 10px;
+}
+.down-1 img{
+    margin-left: 50px;
+    padding-right: 10px;
+    width: 55px;
+}
+.down-1 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.down-1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    width: 450px;
+    margin-left: 30px;
+}
+.down-2{
+    margin-left: 20px;
+}
+.down-2 h3{
+    font-size: 20;
+    color: #fff; 
+}
+.down-2 span{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.down-2 p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.down-2 ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    color: #fff;
+
+}
+.down-3{
+    margin-left: 50px;
+}
+.down-3 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+.down-3 input{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 70px;
+    border-radius: 25px;
+
+}
+.click {
+    margin-top: 20px;
+
+}
+
+.click a{
+    padding: 12px 60px;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 1s;
+}
+.click a:hover{
+    color: rgb(136, 136, 247);
+    background: #fff;
+    border: 1px solid rgb(136, 136, 247);
+}
+.rel-background{
+    background-image: url(order-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+}
